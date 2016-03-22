@@ -1,0 +1,204 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Mono';
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+	background-image: url("../img/texture.jpg");
+}
+
+#photo, #stripes {
+	width: 100%;
+	height: 100%;
+}
+
+#graphic-frame {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#spacer {
+	clear: both;
+	float: none;
+}
+
+#header {
+	max-width: 1200px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+#photo {
+	position: relative;
+	margin: auto;
+	margin-bottom: -17%;
+	text-align: center;
+	height: 62%;
+}
+
+#photo svg, #slogans svg {
+	max-width:100%;
+	max-height:100%;
+}
+
+#ralph, #michael, #path {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#path {
+	z-index: 4;
+}
+
+#ralph {
+	z-index: 1;
+}
+
+#michael{
+
+}
+
+#slogans {
+	margin: auto;
+	position: relative;
+	z-index: 4;
+	height: 39%;
+}
+
+#slogan-wrapper {
+	position: relative;
+	height: 350px;
+	width: 900px;
+	margin: 0 auto;
+	-webkit-transition: .25s ease-out;
+    -moz-transition: .25s ease-out;
+    -o-transition: .25s ease-out;
+    transition: .25s ease-out;
+}
+
+#slogans svg{
+	padding: 0;
+}
+
+.svg-center {
+    transform-origin: 50% 50%;
+}
+
+#die-tun, #die-wollen, #zwei-poetry {
+	position: absolute;
+	max-width: 100%;
+}
+
+#die-tun {
+	
+}
+
+#die-wollen {
+	top: 30%;
+}
+
+#zwei-poetry {
+	bottom: 0;
+}
+
+#stripes {
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	max-height: 100%;
+	z-index: 3;
+	height: 350px;
+}
+
+.stripe {
+	width: 4000px;
+	height: 500px;
+	position: absolute;
+}
+
+#stripe3 {
+	background-color: #FFF;
+	bottom: -400px;
+}
+#stripe2 {
+	background-color: #DADADA;
+	bottom: -325px;
+}
+#stripe1 {
+	background-color: #C6C6C6;
+	bottom: -250px;
+}
+
+#main {
+	position: relative;
+	z-index: 10;
+}
+
+#content {
+	margin: 0;
+	min-height: 100px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.fb-page {
+	margin: auto;
+}
+
+footer {
+	background-color: #fff;
+	color: #ccc;
+	padding: 5px;
+}
+
+@media(max-width:767px){
+	
+}
+@media(min-width:768px){
+	
+}
+@media(min-width:992px){
+	
+}
+@media(min-width:1200px){
+	
+	#header {
+		width: 900px;
+	}
+	
+	#photo {
+		width: 800px;
+		margin-bottom: -130px;
+	}
+	#slogans {
+		width: 900px;
+	}
+	#stripes {
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
